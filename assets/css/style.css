@@ -1,0 +1,21 @@
+.navbar{
+			background-color: rgb(88, 88, 88);
+          
+}
+.container-fluid .panel-danger .panel-heading{
+    background-color: #cdbaba;
+    color: black;
+}
+
+.alert-danger{
+    color: black;
+}
+
+.alert-danger strong{
+    color: red;
+}
+
+.panel-success .panel-heading{/*payment.php*/
+    color:  black;
+
+}
