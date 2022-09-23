@@ -277,9 +277,9 @@ if(isset($_SESSION['departure_date'])){
 						success: function (data) {
 							
 							// window.location = "first.php?totalpass="+totalPass+"&acc="+acc;
-							// window.location = "passenger.php?totalpass="+totalPass+"&acc="+acc;
+							window.location = "passenger.php?totalpass="+totalPass+"&acc="+acc;
 							// console.log(data.slot);
-								window.location = "passenger.php";
+								//window.location = "passenger.php";
 							if(data.slot >= 0){
 
 								if(acc ==1){//sitting ko 
